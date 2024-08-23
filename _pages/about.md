@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>313 Au Sable Hall          </p>
-    <p>101 Broad St           </p>
+    <p>313 Au Sable Hall <br> </p>
+    <p>101 Broad St. <br> </p>
     <p>Plattsburgh, NY 12901</p>
 
 news: true # includes a list of news items
