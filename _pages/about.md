@@ -17,7 +17,7 @@ social: false # includes social icons at the bottom of the page
 
 <br> 
 <!--<h5 style="text-align: center; font-family: Georgia, serif;">Welcome!</h5>-->
-<p style="text-align: center;font-size: 18px;">Welcome!</p>
+<!--<p style="text-align: center;font-size: 18px;">Welcome!</p>-->
 
 I am an experienced educator and researcher specializing in business analytics, predictive modeling, and optimization. I teach courses in statistics, operations research, and predictive analytics. My research focuses on developing learning models and algorithms to address decision-making uncertainty in healthcare and environmental contexts. <br> <br>
 I completed my PhD in Industrial Engineering at <a href="https://www.njit.edu/academics/major/industrial-engineering"> New Jersey Institute of Technology </a> under the supervision of <a href="https://soml.ise.vt.edu/"> Dr. Esra Büyüktahtakιn Toy</a>, where my dissertation centered on developing multistage stochastic optimization and reinforcement learning models for invasive species management and epidemic control planning. <br> <br>

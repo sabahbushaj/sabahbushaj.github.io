@@ -1,5 +1,5 @@
-"Buyuktahtakin Toy":
-  - firstname: ["Esra", "E.", "İ. Esra"]
+"buyuktahtakin":
+  - firstname: ["Esra", "E.", "I. Esra"]
     url: https://www.ise.vt.edu/people/faculty/buyuktahtakin.html
 
 "haight":
@@ -16,14 +16,6 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"büyüktahtakın":
-  - firstname: ["Esra", "E.", "İ. Esra"]
-    url: https://www.ise.vt.edu/people/faculty/buyuktahtakin.html
-
-"B{\"u}y{\"u}ktahtak{\i}n":
-  - firstname: ["İ. Esra"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
 "lorentz":
   - firstname: ["Hendrik Antoon"]
