@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:star2: Our [paper](https://www.tandfonline.com/doi/full/10.1080/24725854.2023.2223246) was featured in [ISE Magazine June 2024 Issue](https://www.iise.org/isemagazine/Issue.aspx?IssueMonth=06&IssueYear=2024) :star2:
+:star2: Our paper [COVID-19: Agent-based simulation-optimization to vaccine center location vaccine allocation problem](https://www.tandfonline.com/doi/full/10.1080/24725854.2023.2223246) was featured in [ISE Magazine June 2024 Issue](https://www.iise.org/isemagazine/Issue.aspx?IssueMonth=06&IssueYear=2024) :star2:
