@@ -1,28 +1,28 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Buyuktahtakin Toy":
+  - firstname: ["Esra", "E.", "İ. Esra"]
+    url: https://www.ise.vt.edu/people/faculty/buyuktahtakin.html
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"haight":
+  - firstname: ["Robert", "R.", "R. G.", "Robert G."]
+    url: https://research.fs.usda.gov/about/people/haight
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"yin":
+  - firstname: ["Ethan", "Xuecheng"]
+    url: https://business.okstate.edu/directory/1048924.html
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"yemshanov":
+  - firstname: ["Denys", "D."]
+    url: https://cfs.nrcan.gc.ca/employees/read/dyemshan
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"büyüktahtakın":
+  - firstname: ["Esra", "E.", "İ. Esra"]
+    url: https://www.ise.vt.edu/people/faculty/buyuktahtakin.html
 
-"schrodinger":
-  - firstname: ["Erwin"]
+"B{\"u}y{\"u}ktahtak{\i}n":
+  - firstname: ["İ. Esra"]
     url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
 "lorentz":

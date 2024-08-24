@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Presenting at INFORMS Annual Meeting 2024
-date: 2014-10-18 12:45:00-0400
+date: 2014-10-20 12:45:00-0400
 inline: false
 related_posts: false
 ---
