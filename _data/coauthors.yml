@@ -4,15 +4,19 @@
 
 "haight":
   - firstname: ["Robert", "R.", "R. G.", "Robert G."]
-    url: https://research.fs.usda.gov/about/people/haight
+    url: https://research.fs.usda.gov/about/people/robert.haight
 
 "yin":
   - firstname: ["Ethan", "Xuecheng"]
-    url: https://business.okstate.edu/directory/1048924.html
+    url: https://experts.okstate.edu/xuecheng.yin
+
+"onal":
+  - firstname: ["Sevilay"]
+    url: https://scholar.google.com/citations?user=tclH8_oAAAAJ&hl=en
 
 "yemshanov":
   - firstname: ["Denys", "D."]
-    url: https://cfs.nrcan.gc.ca/employees/read/dyemshan
+    url: https://scholar.google.com/citations?user=ir7lbAgAAAAJ&hl=en
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
