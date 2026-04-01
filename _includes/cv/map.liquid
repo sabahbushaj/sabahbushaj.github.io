@@ -1,14 +1,26 @@
-<table class="table table-cv table-sm table-borderless table-responsive">
+<div class="cv-facts">
   {% for content in entry.contents %}
-    <tr>
-      <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content.name }}</b>
-      </td>
+    <div class="cv-fact-row">
+      <div class="cv-fact-label">{{ content.name }}</div>
       {% if content.value %}
-        <td class="p-1 pl-2 font-weight-light text">{{ content.value }}</td>
+        <div class="cv-fact-value{% if forloop.first and page.cv_pdf %} cv-fact-value-main{% endif %}">
+          <span>{{ content.value }}</span>
+          {% if forloop.first and page.cv_pdf %}
+            <a
+              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cv-inline-download"
+              aria-label="Download CV PDF"
+            >
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>PDF</span>
+            </a>
+          {% endif %}
+        </div>
       {% endif %}
       {% if content.links %}
-        <td class="p-1 pl-2 font-weight-light text">
+        <div class="cv-fact-value">
           <div class="container-pdf">
             {% for item in content.links %}
               {% if item.link %}
@@ -22,8 +34,8 @@
               {% endif %}
             {% endfor %}
           </div>
-        </td>
+        </div>
       {% endif %}
-    </tr>
+    </div>
   {% endfor %}
-</table>
+</div>

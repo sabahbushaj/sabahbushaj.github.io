@@ -74,28 +74,22 @@ h6,
 }
 
 /* CV layout refinements */
-main .container:has(.cv) {
-  max-width: 1320px;
-}
-
-.cv .card {
-  width: 100%;
-}
-
-.cv .card-title {
-  font-size: 1.35rem;
-}
-
 .cv .cv-item {
   padding-left: 0.15rem;
 }
 
 .cv .cv-date-top {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.38rem;
 }
 
 .cv .cv-date-badge {
+  display: inline-block;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
   white-space: nowrap;
   line-height: 1.2;
-  padding: 0.35rem 0.55rem;
+  padding: 0;
+  font-weight: 600;
 }
