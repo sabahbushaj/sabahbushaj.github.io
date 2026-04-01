@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+  <title id="title">Journal of the Operational Research Society cover preview</title>
+  <desc id="desc">Cover-style preview for the paper Managing large-scale invasions: Simulation-optimization with Gaussian dispersal Kernels and stochastic seed establishment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cf1859"/>
+      <stop offset="100%" stop-color="#8f123f"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9d0f40"/>
+      <stop offset="100%" stop-color="#6e0d2b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="#f7f2f4"/>
+  <rect width="600" height="540" fill="url(#bg)"/>
+  <rect x="500" y="0" width="100" height="540" fill="url(#panel)"/>
+
+  <g opacity="0.22" fill="#ff9f7f">
+    <polygon points="230,18 282,48 230,78 178,48"/>
+    <polygon points="282,48 334,78 282,108 230,78"/>
+    <polygon points="334,78 386,108 334,138 282,108"/>
+    <polygon points="178,48 230,78 178,108 126,78"/>
+    <polygon points="230,78 282,108 230,138 178,108"/>
+    <polygon points="282,108 334,138 282,168 230,138"/>
+    <polygon points="334,138 386,168 334,198 282,168"/>
+    <polygon points="126,78 178,108 126,138 74,108"/>
+    <polygon points="178,108 230,138 178,168 126,138"/>
+    <polygon points="230,138 282,168 230,198 178,168"/>
+  </g>
+
+  <text x="44" y="42" font-family="Georgia, Garamond, serif" font-size="11" letter-spacing="1.4" fill="#ffe9ef">VOLUME 77 NUMBER 4 APRIL 2026</text>
+  <text x="44" y="278" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#fff">
+    <tspan x="44" dy="0">JOURNAL OF THE</tspan>
+    <tspan x="44" dy="48">OPERATIONAL</tspan>
+    <tspan x="44" dy="48">RESEARCH</tspan>
+    <tspan x="44" dy="48">SOCIETY</tspan>
+  </text>
+
+  <text transform="translate(575 38) rotate(90)" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="1.2" fill="#ffffff">JORS</text>
+
+  <text x="48" y="400" font-family="Georgia, Garamond, serif" font-size="26" fill="#ffe9ef">
+    <tspan x="48" dy="0">Sevilay Onal</tspan>
+    <tspan x="48" dy="38">Sabah Bushaj</tspan>
+    <tspan x="48" dy="38">Jennifer Smith</tspan>
+    <tspan x="48" dy="38">Gregory R. Houseman</tspan>
+    <tspan x="48" dy="38">I. Esra Buyuktahtakin</tspan>
+  </text>
+
+  <rect x="0" y="540" width="600" height="260" fill="#fcfbfc"/>
+  <circle cx="86" cy="694" r="38" fill="#2bb0d9"/>
+  <circle cx="86" cy="694" r="24" fill="#ff7b7b" opacity="0.9"/>
+  <circle cx="120" cy="720" r="18" fill="#5ec27f" opacity="0.85"/>
+  <text x="150" y="690" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#525252">OPERATIONAL</text>
+  <text x="150" y="715" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#525252">RESEARCH SOCIETY</text>
+
+  <circle cx="380" cy="698" r="34" fill="#40449c"/>
+  <circle cx="380" cy="698" r="18" fill="#ffffff"/>
+  <text x="430" y="695" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#444">Taylor &amp; Francis Group</text>
+  <text x="430" y="720" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#666">an informa business</text>
+</svg>
