@@ -28,4 +28,3 @@ In teaching, I emphasize practical analytics and reproducible methods that stude
   <span class="interest-pill">Invasive species management</span>
   <span class="interest-pill">Decision-making under uncertainty</span>
 </div>
-

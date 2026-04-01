@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented *Continuous, Explainable Retention Architecture: Predicting and Preventing Student Dropouts* on November 13, 2025 at SUNY Plattsburgh for Data Matters October 2025.
+Presented _Continuous, Explainable Retention Architecture: Predicting and Preventing Student Dropouts_ on November 13, 2025 at SUNY Plattsburgh for Data Matters October 2025.
