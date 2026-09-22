@@ -1,0 +1,96 @@
+<ul class="cv-entry-list">
+  {% for content in entry.contents %}
+    <li class="cv-entry">
+      <div class="cv-item">
+        {% if content.year %}
+          <div class="cv-entry-head">
+            <div class="cv-date-badge">{{- content.year -}}</div>
+            {% if content.location %}
+              <p class="location mb-0">
+                <i class="fa-solid fa-location-dot iconlocation"></i>
+                {{ content.location }}
+              </p>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if content.title %}
+          <h3 class="cv-entry-title">{{ content.title }}</h3>
+        {% endif %}
+
+        {% if content.department or content.institution %}
+          <div class="cv-entry-meta">
+            {% if content.institution %}
+              <div class="cv-entry-institution">{{ content.institution }}</div>
+            {% endif %}
+            {% if content.department %}
+              <div class="cv-entry-department">{{ content.department }}</div>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if content.maindescription %}
+          <div class="cv-entry-summary">{{ content.maindescription }}</div>
+        {% endif %}
+
+        {% if content.description %}
+          <ul class="cv-entry-items">
+            {% for item in content.description %}
+              <li>
+                {% if item.contents %}
+                  <span class="item-title">{{ item.title }}</span>
+                  <ul class="subitems">
+                    {% for subitem in item.contents %}
+                      <li>
+                        <span class="subitem">{{ subitem }}</span>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <span class="item">{{ item }}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if content.items %}
+          <ul class="cv-entry-items">
+            {% for item in content.items %}
+              <li>
+                {% if item.contents %}
+                  <span class="item-title">{{ item.title }}</span>
+                  <ul class="subitems">
+                    {% for subitem in item.contents %}
+                      <li>
+                        <span class="subitem">{{ subitem }}</span>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <span class="item">{{ item }}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if content.linkitems %}
+          <div class="container-links">
+            {% for item in content.linkitems %}
+              {% if item.link %}
+                <div class="container-link-button">
+                  {% if item.linkname %}
+                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname }}</a>
+                  {% else %}
+                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,41 @@
+<div class="cv-facts">
+  {% for content in entry.contents %}
+    <div class="cv-fact-row">
+      <div class="cv-fact-label">{{ content.name }}</div>
+      {% if content.value %}
+        <div class="cv-fact-value{% if forloop.first and page.cv_pdf %} cv-fact-value-main{% endif %}">
+          <span>{{ content.value }}</span>
+          {% if forloop.first and page.cv_pdf %}
+            <a
+              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cv-inline-download"
+              aria-label="Download CV PDF"
+            >
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>PDF</span>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if content.links %}
+        <div class="cv-fact-value">
+          <div class="container-pdf">
+            {% for item in content.links %}
+              {% if item.link %}
+                <div class="container-link-button">
+                  {% if item.name %}
+                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.name }}</a>
+                  {% else %}
+                    <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
